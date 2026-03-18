@@ -1,4 +1,4 @@
-# ✈️ Airline Reservation Database System
+#  Airline Reservation Database System
 
 > A fully normalized relational database system for managing airline operations — flights, passengers, bookings, crew, and analytics.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Airline Database Management System (ADMS)** is a centralized solution designed to streamline the management of airline operations. It automates key processes, ensures data accuracy, and enhances decision-making for airline management.
 
@@ -22,7 +22,7 @@ The system organizes critical information including:
 
 ---
 
-## 🗃️ Database Schema — 20 Tables
+##  Database Schema — 20 Tables
 
 | # | Table | Description |
 |---|-------|-------------|
@@ -49,7 +49,7 @@ The system organizes critical information including:
 
 ---
 
-## 🔍 Complex Queries (10)
+##  Complex Queries (10)
 
 | # | Query | Purpose |
 |---|-------|---------|
@@ -66,7 +66,7 @@ The system organizes critical information including:
 
 ---
 
-## ⚙️ Stored Procedures (5)
+##  Stored Procedures (5)
 
 ```sql
 -- 1. Calculate overall satisfaction score for a specific flight
@@ -87,7 +87,7 @@ CALL UpdateCustomerType();
 
 ---
 
-## 🔧 Stored Functions (5)
+##  Stored Functions (5)
 
 ```sql
 -- 1. Calculate customer loyalty score
@@ -105,7 +105,7 @@ SELECT GetBusiestDayOfWeek();
 
 ---
 
-## ⚡ Triggers (5)
+##  Triggers (5)
 
 | # | Trigger | Event | Purpose |
 |---|---------|-------|---------|
@@ -117,7 +117,7 @@ SELECT GetBusiestDayOfWeek();
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - MySQL 8.0+ or compatible RDBMS
@@ -150,7 +150,7 @@ SHOW TABLES;
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 airline-database-system/
@@ -162,20 +162,20 @@ airline-database-system/
 
 ---
 
-## 📊 Key Features
+##  Key Features
 
-- ✅ Fully normalized relational schema
-- ✅ ER Diagram with all entity relationships
-- ✅ Data Dictionary for all 20 tables
-- ✅ 10 complex analytical queries with results
-- ✅ 5 Stored Procedures for business automation
-- ✅ 5 Stored Functions for reusable computations
-- ✅ 5 Triggers for data integrity enforcement
-- ✅ Seed data included for all tables
+-  Fully normalized relational schema
+-  ER Diagram with all entity relationships
+-  Data Dictionary for all 20 tables
+-  10 complex analytical queries with results
+-  5 Stored Procedures for business automation
+-  5 Stored Functions for reusable computations
+-  5 Triggers for data integrity enforcement
+-  Seed data included for all tables
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Real-time flight tracking integration
 - Web dashboard for operational analytics
@@ -184,7 +184,7 @@ airline-database-system/
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | Student ID |
 |------|-----------|
