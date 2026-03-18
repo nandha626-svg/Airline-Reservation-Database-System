@@ -1,0 +1,29 @@
+# Database credentials / environment
+.env
+*.env
+config.ini
+secrets.yml
+
+# MySQL dumps with sensitive data
+*.dump
+*_backup.sql
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
